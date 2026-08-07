@@ -1,0 +1,7 @@
+docker pull rmartinezmaple/meiga_lidera:1.0
+
+docker run -it --name meiga_name_of_container -v /local/path:/workspace --entrypoint bash rmartinezmaple/meiga_lidera:1.0
+
+./G4WCDSimulator -c G4WCDSimulator.json
+
+gunzip output.json.gz
