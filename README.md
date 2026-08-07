@@ -6,10 +6,9 @@ Programa intensivo de formación en simulación de la cadena completa de detecci
 
 - [1. Descripción del curso](#1-descripción-del-curso)
 - [2. Duración y formato](#2-duración-y-formato)
-- [3. Prerrequisitos](#3-prerrequisitos)
-- [4. Objetivo general](#4-objetivo-general)
-- [5. Objetivos específicos](#5-objetivos-específicos)
-- [6. Sesiones de formación](#6-sesiones-de-formación)
+- [3. Objetivo general](#4-objetivo-general)
+- [4. Objetivos específicos](#5-objetivos-específicos)
+- [5. Sesiones de formación](#6-sesiones-de-formación)
   - [Sesión 1. Rayos cósmicos, cascadas atmosféricas y flujos a nivel del suelo](#sesión-1-rayos-cósmicos-cascadas-atmosféricas-y-flujos-a-nivel-del-suelo)
   - [Sesión 2. Métodos de Monte Carlo y plataforma de simulación ARTI](#sesión-2-métodos-de-monte-carlo-y-plataforma-de-simulación-arti)
   - [Sesión 3. Análisis de catálogos de partículas secundarias generados con ARTI](#sesión-3-análisis-de-catálogos-de-partículas-secundarias-generados-con-arti)
@@ -38,9 +37,8 @@ El programa consta de seis sesiones intensivas que combinan clases teóricas, ej
 | Número de sesiones | 6 |
 | Duración sugerida por sesión | 4 horas |
 | Tiempo total de formación presencial | 24 horas |
-| Proyecto de investigación | Entre 4 y 8 semanas |
 | Modalidad | Clases teóricas, laboratorios computacionales, discusiones guiadas y trabajo de investigación independiente |
-| Nivel | Estudiantes avanzados de pregrado, maestría, doctorado o investigadores en etapas iniciales de su carrera |
+| Nivel | Estudiantes avanzados de pregrado |
 
 Cada sesión deberá incluir aproximadamente:
 
@@ -48,16 +46,6 @@ Cada sesión deberá incluir aproximadamente:
 - **120 minutos** de laboratorio computacional
 - **30 minutos** de discusión, interpretación de resultados y preparación del proyecto
 
-## 3. Prerrequisitos
-
-Los participantes deberán contar con:
-
-- Conocimientos básicos de física de partículas o física nuclear
-- Conocimientos introductorios sobre rayos cósmicos
-- Familiaridad con mecánica clásica y relatividad especial
-- Conocimientos básicos de probabilidad y estadística
-- Experiencia en programación, preferiblemente en Python
-- Manejo básico de Linux y de herramientas de línea de comandos
 
 > [!NOTE]
 > La experiencia previa con C++, métodos de Monte Carlo, Geant4, ROOT o computación de alto rendimiento es útil, pero no obligatoria.
@@ -296,3 +284,43 @@ Un informe de caracterización del detector que incluya:
 - Eficiencia de detección
 - Estimación de la aceptación
 - Comparación entre configuraciones alternativas
+
+### Sesión 6. Integración ARTI–Meiga
+ 
+#### Objetivos
+ 
+- Conectar las simulaciones de cascadas atmosféricas con los modelos de respuesta de detectores.
+- Calcular tasas realistas de conteo esperadas.
+- Definir un proyecto de investigación viable y científicamente relevante.
+#### Contenido teórico
+ 
+- Conversión de las salidas de ARTI en fuentes de partículas para Meiga
+- Muestreo de energías y direcciones realistas de muones
+- Transformaciones entre sistemas de coordenadas
+- Definición del plano fuente
+- Preservación de pesos estadísticos y normalización del flujo
+- Cálculo de tasas de eventos en detectores
+- Estimación de tiempos de exposición
+- Señal y fondo
+- Validación de simulaciones integradas
+#### Actividad práctica
+ 
+Los participantes deberán:
+ 
+- Importar o transformar un catálogo de muones generado con ARTI.
+- Utilizar el catálogo como fuente de partículas en Meiga.
+- Simular la respuesta de un detector seleccionado.
+- Estimar la tasa de conteo esperada.
+- Calcular la exposición necesaria para alcanzar una precisión determinada.
+- Identificar las principales fuentes de incertidumbre.
+
+#### Producto de la sesión
+ 
+Una nota conceptual del proyecto que contenga:
+ 
+- Pregunta de investigación
+- Motivación científica
+- Estrategia de simulación
+- Conjuntos de datos necesarios
+- Geometría del detector o de la estructura
+- Observables esperados
