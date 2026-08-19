@@ -1,0 +1,27 @@
+RUNNR       010014
+EVTNR       0
+NSHOW       1
+PRMPAR      14 #Proton
+ESLOPE      -2.77
+ERANGE      1.0e+03 1.0e+03 #Energia en GeV
+THETAP      0 0
+PHIP        -180 180
+OBSLEV      950E2 #Altura en cm
+ATMOSPHERE     1 Y
+MAGNET      26.793 16.055
+FIXCHI      0.
+SEED        6695423   0   0
+SEED        1519066   0   0
+SEED        688389   0   0
+SEED        9457120   0   0
+ECUTS       0.02 0.01 5e-05 5e-05
+
+MUMULT      T
+MAXPRT      1
+ELMFLG      F   T
+LONGI       T  10.  T  T
+ECTMAP      1.E11
+
+DIRECT      ./
+DATBAS      F
+PAROUT      T F
